@@ -1,0 +1,24 @@
+body {
+  <!-- font-family here -->
+  background:#555555;
+}
+
+header {
+  background-color: #ffb091;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.main .container .row .two-thirds.column {
+  background-color: #efffff;
+}
+
+.main .container .row .one-third.column {
+  background-color: #d0e2ca;
+}
+
+footer {
+  background-color: #a897ff;
+  max-width: 960px;
+  margin: 0 auto;
+}
