@@ -1,53 +1,98 @@
 <!DOCTYPE html>
 <html>
-
   <head>
+    <!-- Basic Page Needs -->
     <title>Callan's Website</title>
-    <link href="../styles/main.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta name="description" content="This is the description of my website.">
+    <meta name="author" content="Callan Stretton Ltd">
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- (CHANGE THIS) Font -->
+    <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css"> <!-- Online Normalize Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"> <!-- Online Skeleton Stylesheet -->
+    <link rel="stylesheet" href="../styles/blog.css"> <!-- My Stylesheet -->
+
+    <!-- Favicon (Icon that shows in the webpage tab/Favourites bar) -->
+    <link rel="icon" type="image/png" href="http://i.imgur.com/UIMidyX.png">
   </head>
 
   <body>
 
     <header>
-      <nav>
-        <h1>Callan's Website</h1>
-        <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="c1-reflection-blog.html">Reflection</a></li>
-          <li><a href="c1-time-and-habits-blog.html">Time and Habits</a></li>
-          <li><a href="t2-html-css-dom-p1.html">Technical Pt1</a></li>
-          <li>Technical Pt2</li>
-          <li><a href="c2-emotional-intelligence.html">Emotional Intelligence</a></li>
-        </ul>
-      </nav>
+      <div class="container"> <!-- banner image CSS -->
+        <div class="row">
+          <div class="one-third column"> <!-- blank --> </div>
+
+          <div class="one-third column">
+            <a href="../index.html"><h1>Callan's Website</h1></a>
+          </div>
+
+          <div class="one-third column"> <!-- blank --> </div>
+        </div> <!-- /.row -->
+      </div> <!-- /.container -->
     </header>
 
-    <div class="wrapper">
-      <h3>Technical Part 2 20/07/17</h3>
-      <ul>
-        <p>
-          <li>What is grid based design?</li>
-          Grid-based design is a commonly used method to arrange the content on your webpage. The grid is comprised of row and column classes and preferably can be broken up into easily divisible amounts, the example in the Udacity tutorial had 12 columns as this could be divided by 2, 3 and 4. This will come in handy for display-responsive webpages when using percentages. The grid design is a great way to get your proportions looking right, offers uniformity across all your pages and gives the reader an easy to navigate webpage.
-        </p>
+    <section class="main">
+      <div class="container">
+        <div class="row">
+            <div class="two-thirds column">
+              <h2>Technical Part 2 20/07/17</h2>
+              <ul>
+                <p>
+                  <li>What is grid based design?</li>
+                  Grid-based design is a commonly used method to arrange the content on your webpage. The grid is comprised of row and column classes and preferably can be broken up into easily divisible amounts, the example in the Udacity tutorial had 12 columns as this could be divided by 2, 3 and 4. This will come in handy for display-responsive webpages when using percentages. The grid design is a great way to get your proportions looking right, offers uniformity across all your pages and gives the reader an easy to navigate webpage.
+                </p>
 
-        <p>
-          <li>Whats all the hype about responsive webpages?</li>
-          Responsive webpages give the viewer the best possible user experience of the webpage on any screen size, device or requirement. The CSS stylesheets can be customized for a number of uses for the websites, including a print-rfriendly version of the webpage it may cut down on images and focus more on the text. My favourite example of responsive webpages is when you have a webpage and manually drag and reduce the screen's resolution in the browser and the page changes to have simplified menus and it's less busy on the screen to accomodate for smart phones and tablets.
-        </P>
+                <p>
+                  <li>Whats all the hype about responsive webpages?</li>
+                  Responsive webpages give the viewer the best possible user experience of the webpage on any screen size, device or requirement. The CSS stylesheets can be customized for a number of uses for the websites, including a print-rfriendly version of the webpage it may cut down on images and focus more on the text. My favourite example of responsive webpages is when you have a webpage and manually drag and reduce the screen's resolution in the browser and the page changes to have simplified menus and it's less busy on the screen to accomodate for smart phones and tablets.
+                </P>
 
-        <p>
-          <li>What is semantic structure?</li>
-          In a way the semantic structure is what gives HTML uniformity and by using semantic tags its easier for readers and other developers to follow and understand the structure. A simple example for following semantics would be, you would give the main heading of a webpage the h1 tag and then a not so prominent heading h2 then its sub-heading h3. You wouldn't make the main heading h3 and make a small heading h1.
-        </p>
+                <p>
+                  <li>What is semantic structure?</li>
+                  In a way the semantic structure is what gives HTML uniformity and by using semantic tags its easier for readers and other developers to follow and understand the structure. A simple example for following semantics would be, you would give the main heading of a webpage the h1 tag and then a not so prominent heading h2 then its sub-heading h3. You wouldn't make the main heading h3 and make a small heading h1.
+                </p>
 
-        <p>
-          <li>Any other points you found interesting and want to reflect on.</li>
-          I found the CSS reset/normalize method interesting as it's meant to ensure the CSS styles to look the same across all browsers. I would like to look further into thus as I felt the Udacity tutorial only brushed over it.
-        </p>
-      </ul>
-    </div>
+                <p>
+                  <li>Any other points you found interesting and want to reflect on.</li>
+                  I found the CSS reset/normalize method interesting as it's meant to ensure the CSS styles to look the same across all browsers. I would like to look further into thus as I felt the Udacity tutorial only brushed over it.
+                </p>
+              </ul>
+            </div>
 
-    <footer>This site was made by Callan.</footer>
+            <div class="one-third column">
+              <h3>EDA Blog Posts</h3>
+              <ul>
+                <li><a href="c1-reflection-blog.html">Reflection</a></li>
+                <li><a href="c1-time-and-habits-blog.html">Time and Habits</a></li>
+                <li><a href="t2-html-css-dom-p1.html">Technical Part 1</a></li>
+                <li>Technical Part 2</li>
+                <li><a href="c2-emotional-intelligence.html">Emotional Intelligence</a></li>
+                <li><a href=#>EDA Blog Link 6</a></li>
+                <li><a href=#>EDA Blog Link 7</a></li>
+                <li><a href=#>EDA Blog Link 8</a></li>
+                <li><a href=#>EDA Blog Link 9</a></li>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container"> <!-- banner image CSS -->
+        <ul>
+          <li><a href=#>About</a></li>
+          <li><a href=#>Link-2</a></li>
+          <li><a href=#>Link-3</a></li>
+        </ul>
+      </div>
+    </footer>
 
   </body>
 </html>

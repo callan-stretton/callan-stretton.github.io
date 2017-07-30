@@ -1,53 +1,98 @@
 <!DOCTYPE html>
 <html>
-
   <head>
+    <!-- Basic Page Needs -->
     <title>Callan's Website</title>
-    <link href="../styles/main.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta name="description" content="This is the description of my website.">
+    <meta name="author" content="Callan Stretton Ltd">
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- (CHANGE THIS) Font -->
+    <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css"> <!-- Online Normalize Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"> <!-- Online Skeleton Stylesheet -->
+    <link rel="stylesheet" href="../styles/blog.css"> <!-- My Stylesheet -->
+
+    <!-- Favicon (Icon that shows in the webpage tab/Favourites bar) -->
+    <link rel="icon" type="image/png" href="http://i.imgur.com/UIMidyX.png">
   </head>
 
   <body>
 
     <header>
-      <nav>
-        <h1>Callan's Website</h1>
-        <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="c1-reflection-blog.html">Reflection</a></li>
-          <li>Time and Habits</li>
-          <li><a href="t2-html-css-dom-p1.html">Technical Pt1</a></li>
-          <li><a href="t2-html-css-dom-p2.html">Technical Pt2</a></li>
-          <li><a href="c2-emotional-intelligence.html">Emotional Intelligence</a></li>
-        </ul>
-      </nav>
+      <div class="container"> <!-- banner image CSS -->
+        <div class="row">
+          <div class="one-third column"> <!-- blank --> </div>
+
+          <div class="one-third column">
+            <a href="../index.html"><h1>Callan's Website</h1></a>
+          </div>
+
+          <div class="one-third column"> <!-- blank --> </div>
+        </div> <!-- /.row -->
+      </div> <!-- /.container -->
     </header>
 
-    <div class="wrapper">
-      <h3>Time and Habits 12/07/17</h3>
-      <ul>
-        <p>
-          <li>Which timebox and habits techniques did you try?</li>
-          I tried the Pomodoro technique and Starting Small idea.
-        </p>
+    <section class="main">
+      <div class="container">
+        <div class="row">
+            <div class="two-thirds column">
+              <h2>Time and Habits 12/07/17</h2>
+              <ul>
+                <p>
+                  <li>Which timebox and habits techniques did you try?</li>
+                  I tried the Pomodoro technique and Starting Small idea.
+                </p>
 
-        <p>
-          <li>What did you find interesting?</li>
-          I found the growth mindset interesting as it focuses on developing your abilities and allowing your actions to drive your confidence rather than having a definite, fixed mindset.
-        </p>
+                <p>
+                  <li>What did you find interesting?</li>
+                  I found the growth mindset interesting as it focuses on developing your abilities and allowing your actions to drive your confidence rather than having a definite, fixed mindset.
+                </p>
 
-        <p>
-          <li>What worked for you?</li>
-          I found that by not being overwhelmed by the large task at hand, it's best to break it down and focus on the small things. The Pomodoro technique helped as well to drown out distractions and give tasks my undivided attention.
-        </P>
+                <p>
+                  <li>What worked for you?</li>
+                  I found that by not being overwhelmed by the large task at hand, it's best to break it down and focus on the small things. The Pomodoro technique helped as well to drown out distractions and give tasks my undivided attention.
+                </P>
 
-        <p>
-          <li>Which will you experiment further with?</li>
-          Growth mindset, Pomodoro, and thinking small.
-        </p>
-      </ul>
+                <p>
+                  <li>Which will you experiment further with?</li>
+                  Growth mindset, Pomodoro, and thinking small.
+                </p>
+              </ul>
+            </div>
+
+            <div class="one-third column">
+              <h3>EDA Blog Posts</h3>
+              <ul>
+                <li><a href="c1-reflection-blog.html">Reflection</a></li>
+                <li>Time and Habits</li>
+                <li><a href="t2-html-css-dom-p1.html">Technical Part 1</a></li>
+                <li><a href="t2-html-css-dom-p2.html">Technical Part 2</a></li>
+                <li><a href="c2-emotional-intelligence.html">Emotional Intelligence</a></li>
+                <li><a href=#>EDA Blog Link 6</a></li>
+                <li><a href=#>EDA Blog Link 7</a></li>
+                <li><a href=#>EDA Blog Link 8</a></li>
+                <li><a href=#>EDA Blog Link 9</a></li>
+              </ul>
+            </div>
+        </div>
       </div>
+    </section>
 
-    <footer>This site was made by Callan.</footer>
+    <footer>
+      <div class="container"> <!-- banner image CSS -->
+        <ul>
+          <li><a href=#>About</a></li>
+          <li><a href=#>Link-2</a></li>
+          <li><a href=#>Link-3</a></li>
+        </ul>
+      </div>
+    </footer>
 
   </body>
 </html>
