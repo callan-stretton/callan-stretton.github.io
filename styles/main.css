@@ -27,6 +27,21 @@ p {
   margin: 0;
 }
 
+.eda-main .container .row .two-thirds.column {
+  background-color: #fffdd0;
+  margin: 0;
+}
+
+.eda-main .container .row .one-third.column {
+  background-color: #d0e2ca;
+  margin: 0;
+}
+
+.eda-main .container .row .two-thirds.column img {
+  width: 80%;
+  margin: 0 30px;
+}
+
 footer {
   background-color: #a897ff;
   max-width: 960px;
