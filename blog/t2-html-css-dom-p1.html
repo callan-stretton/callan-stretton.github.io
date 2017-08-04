@@ -23,25 +23,18 @@
   </head>
 
   <body>
-
-    <header>
-      <div class="container"> <!-- banner image CSS -->
+    <div class="container">
+      <header>
         <div class="row">
-          <div class="one-third column"> <!-- blank --> </div>
-
-          <div class="one-third column">
+          <div class="twelve columns header">
             <a href="../index.html"><h1>Callan's Website</h1></a>
           </div>
+      </header>
 
-          <div class="one-third column"> <!-- blank --> </div>
-        </div> <!-- /.row -->
-      </div> <!-- /.container -->
-    </header>
-
-    <section class="eda-main">
-      <div class="container">
+      <main>
+        <!-- EDA Blog Post Section -->
         <div class="row">
-            <div class="two-thirds column">
+            <div class="two-thirds column edablog">
               <h2>Technical Part 1 18/07/17</h2>
               <ul>
                 <p>
@@ -68,9 +61,10 @@
                   The box model indicates what values of a container you can change. Starting with the content itself, for exmple some text, you can change the size of the space the text operates in. The next level up from that is the padding, this is the area between the content and the container. Then the container itself can be altered by changing the border. Lastly, the margin is what surrounds the border of the container, and how close it gets to outside objects.
                 </p>
               </ul>
-            </div>
+            </div> <!-- two-thirds.column.edablog -->
 
-            <div class="one-third column">
+            <!-- EDA Navigation Bar -->
+            <div class="one-third column nav">
               <h3>EDA Blog Posts</h3>
               <ul>
                 <li><a href="c1-reflection-blog.html">Reflection</a></li>
@@ -83,20 +77,22 @@
                 <li><a href=#>EDA Blog Link 8</a></li>
                 <li><a href=#>EDA Blog Link 9</a></li>
               </ul>
-            </div>
+            </div> <!-- one-third.column.nav -->
+        </div> <!-- /.row -->
+      </main>
+
+      <footer>
+        <div class="row">
+          <div class="twelve columns footer">
+            <ul>
+              <li><a href=#>About</a></li>
+              <li><a href=#>Link-2</a></li>
+              <li><a href=#>Link-3</a></li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </section>
+      </footer>
 
-    <footer>
-      <div class="container"> <!-- banner image CSS -->
-        <ul>
-          <li><a href=#>About</a></li>
-          <li><a href=#>Link-2</a></li>
-          <li><a href=#>Link-3</a></li>
-        </ul>
-      </div>
-    </footer>
-
+    <div> <!-- /.container -->
   </body>
 </html>
